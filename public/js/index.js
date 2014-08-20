@@ -24,10 +24,11 @@
                 "url": 'views/cpu.html',
             });
 
+            //This should be deleted.
             addApplicationWindow = windowFactory.create(utils.extend(defaultWindowConfig, {
                 name: 'addApplicationWindow',
                 url: 'views/addapplication.html'
-            }));
+            }))
 
             aboutWindow = windowFactory.create(utils.extend(defaultWindowConfig, {
                 name: 'aboutWindow',
